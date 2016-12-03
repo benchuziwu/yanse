@@ -1,0 +1,20 @@
+实现列居中   .am-u-sm-centere
+
+
+
+等分网格  .am-avg-sm-*
+
+
+清除浮动  .am-cf
+.am-fl - 左浮动
+.am-fr - 右浮动
+.am-center - 水平居中     适用于图片,一般往需要居中的元素上添加
+
+
+.am-vertical-align	将这个 class 添加到父容器，父容器需要指定高度。
+.am-vertical-align-middle	需要垂直居中的元素
+.am-vertical-align-bottom	添加到需要底部对齐的元素
+
+
+水平滚动 .am-scrollable-horizontal
+垂直滚动  .am-scrollable-vertical

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>言色APP</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="assets/css/amazeui.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/music.css" />
+	</head>
+
+	<body>
+
+		<!--起始页开始-->
+		<div class="qishi">
+			<div class="am-container">
+				<div class="kong"></div>
+				<div class="am-g">
+					<div class="am-u-sm-6 yan">
+						<p class="am-kai">yan</p>
+						<span class="am-kai am-center">言</span>
+					</div>
+					<div class="am-u-sm-6 se" style="position:relative;">
+
+						<p class=" am-kai">se</p>
+						<span class="am-kai am-center">色</span>
+						<div class="logo1">
+						</div>
+					</div>
+				</div>
+				<div style="height:20px;"></div>
+				<div class="am-g ready">
+					<div class="am-u-sm-centered am-u-sm-3 am-circle">
+						<p>开始</p>
+						<p>begin</p>
+					</div>
+					<div class="am-u-sm-centered go">
+						<p class="jinru" style="display:none;">准备进入言色</p>
+						<div class="da"></div>
+					</div>
+				</div>
+				<div class="am-u-sm-12 alert" style="z-index:222">
+					<div class="am-alert am-alert-warning" data-am-alert>
+						<button type="button" class="am-close" style="width:100px;font-size:20px;">&times;</button>
+						<p>言色,心情,诗歌,音乐分享</p>
+						<small>点击下载客户端,文艺一点不丢人</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--起始页结束-->
+		<!--首页开始-->
+		<!--顶部开始-->
+		<div class=" content shouye active">
+			<header class="indexList-head" style="position:absolute!important;z-index:1;">
+				<ul class="indexList-menu" id="getVoice">
+					<li class="am-active am-fl"><a>主题</a></li>
+					<li class="am-fl"><a>言色FM</a></li>
+					<li class="am-fl"><a>最新</a></li>
+					<li class="am-fl"><a>推荐</a></li>
+					<li class="am-fl"><a>随机</a></li>
+				</ul>
+			</header>
+			<!--顶部结束-->
+			<div class="picture1" style="padding-top:40px;">
+				<ul class="li">
+					<li style="background:#3d0e21;">
+						<img class="img am-fl" src="img/1225a2410b8a175a2bbf4bc72f026571.jpg">
+						<div class="am-block am-fl"><small>原创</small><small>#记忆#</small>记忆里的流口水<small><br />
+							<i class="am-icon-map-marker"></i> 上海　|　2016/04/30</small></div>
+						<div class="am-fr">
+							<div class="shuzhi1 am-fl">24</div><i class="am-icon-users am-icon-fw shang am-fl"></i><br />
+							<div class="shuzhi am-fl">2</div><i class="am-icon-heart am-icon-fw dianzan am-fl"></i>
+						</div>
+					</li>
+					<li style="background:#0e2d34;">
+						<img class="img am-fl" src="img/1b8cf44754e909f45fe3b1094f22fdd9.jpg">
+						<div class="am-block am-fl">Declan，童星变怪大叔咯…<small><br />
+							<i class=" am-icon-map-marker "></i> 上海　|　2016/05/03</small></div>
+						<div class="am-fr">
+							<div class="shuzhi1 am-fl">29</div><i class="am-icon-users am-icon-fw shang am-fl"></i><br />
+							<div class="shuzhi am-fl">1</div><i class="am-icon-heart am-icon-fw dianzan am-fl"></i>
+						</div>
+					</li>
+					<li style="opacity: 1;margin-left: 0px;background:rgba(0,0,0,0.5);position:absolute;bottom:0;left:0;width:100%;"><img class="img am-fl" src="img/3a639f6d594e811ff8fd8505ec5bf0c5.jpg">
+						<div class="am-block am-fl"><span>#晒娃#</span> 奶藓终于好点了<small><br />
+							<i class="am-icon-map-marker "></i> 上海　|　2016/05/04</small></div>
+						<div class="am-fr">
+							<div class="shuzhi1 am-fl">31</div><i class="am-icon-users am-icon-fw shang am-fl"></i><br />
+							<div class="shuzhi am-fl">3</div><i class="am-icon-heart am-icon-fw dianzan am-fl"></i>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+			<div class="picture2">
+				<ul class="li">
+					<li style="background:#3d0e21;">
+						<img class="img am-fl" src="img/1225a2410b8a175a2bbf4bc72f026571.jpg">
+						<div class="am-block am-fl"><small>原创</small><small>#记忆#</small> 记忆里的流口水<small><br />
+							<i class="am-icon-map-marker"></i> 上海　|　2016/04/30</small></div>
+						<div class="am-fr">
+							<div class="shuzhi1 am-fl">24</div><i class="am-icon-users am-icon-fw shang am-fl"></i><br />
+							<div class="shuzhi am-fl">3</div><i class="am-icon-heart am-icon-fw dianzan am-fl"></i>
+						</div>
+					</li>
+					<li style="background:#0e2d34;">
+						<img class="img am-fl" src="img/1b8cf44754e909f45fe3b1094f22fdd9.jpg">
+						<div class="am-block am-fl">Declan，童星变怪大叔咯…<small><br />
+							<i class=" am-icon-map-marker "></i> 上海　|　2016/05/03</small></div>
+						<div class="am-fr">
+							<div class="shuzhi1 am-fl">29</div><i class="am-icon-users am-icon-fw shang am-fl"></i><br />
+							<div class="shuzhi am-fl">1</div><i class="am-icon-heart am-icon-fw dianzan am-fl"></i>
+						</div>
+					</li>
+					<li style="background:rgba(0,0,0,0.5);position:absolute;bottom:0;left:0;width:100%;"><img class="img am-fl" src="img/3a639f6d594e811ff8fd8505ec5bf0c5.jpg">
+						<div class="am-block am-fl"><span>#像花儿一样#</span>复兴岛乐队<small><br />
+							<i class="am-icon-map-marker "></i> 上海　|　2016/05/04</small></div>
+						<div class="am-fr">
+							<div class="shuzhi1 am-fl">31</div><i class="am-icon-users am-icon-fw shang am-fl"></i><br />
+							<div class="shuzhi am-fl">3</div><i class="am-icon-heart am-icon-fw dianzan am-fl"></i>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="picture3">
+				<ul class="li">
+					<li style="background:#3d0e21;"><img class="img am-fl" src="img/1225a2410b8a175a2bbf4bc72f026571.jpg">
+						<div class="am-block am-fl"><span class="am-radius">原创</span><span>#记忆#</span> 记忆里的流口水<small><br />
+							<i class="am-icon-map-marker"></i> 上海　|　2016/04/30</small></div>
+						<div class="am-fr">
+							<div class="shuzhi1 am-fl">24</div><i class="am-icon-users am-icon-fw shang am-fl"></i><br />
+							<div class="shuzhi am-fl">2</div><i class="am-icon-heart am-icon-fw dianzan am-fl"></i>
+						</div>
+					</li>
+
+					<li style="background:#3d0e21;"><img class="img am-fl" src="img/43aedbd043b284b39f83333d8cd87590.jpg">
+						<div class="am-block am-fl"><span>#一芯童年#</span> 未来画神<small><br />
+							<i class="am-icon-map-marker"></i> 上海　|　2016/05/30</small></div>
+						<div class="am-fr">
+							<div class="shuzhi1 am-fl">15</div><i class="am-icon-users am-icon-fw shang am-fl"></i><br />
+							<div class="shuzhi am-fl">7</div><i class="am-icon-heart am-icon-fw dianzan am-fl"></i>
+						</div>
+					</li>
+					<li style="background:#0e2d34;"><img class="img am-fl" src="img/5ad5a294494caa226874ff4102adb9f2.jpg">
+						<div class="am-block am-fl"><span>30"</span><small><br />
+							<i class="am-icon-map-marker"></i> 上海　|　2016/06/01</small></div>
+						<div class="am-fr">
+							<div class="shuzhi1 am-fl">13</div><i class="am-icon-users am-icon-fw shang am-fl"></i><br />
+							<div class="shuzhi am-fl">1</div><i class="am-icon-heart am-icon-fw dianzan am-fl"></i>
+						</div>
+					</li>
+					<li class="ziye" style="background:rgba(0,0,0,0.5);position:absolute;bottom:0;left:0;width:100%;"><img class="img am-fl" src="img/52e4da80_1467620909.jpg">
+						<div class="am-block am-fl"><span class="am-radius">原创</span><span>#夏日#</span> 夏天的味道~<small><br />
+							<i class="am-icon-map-marker"></i> 陕西/西安　|　2016/06/21</small></div>
+						<div class="am-fr">
+							<div class="shuzhi1 am-fl">35</div><i class="am-icon-users am-icon-fw shang am-fl"></i><br />
+							<div class="shuzhi am-fl">6</div><i class="am-icon-heart am-icon-fw dianzan am-fl"></i>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="picture4">
+				<ul class="li">
+					<li style="background:#3d0e21;"><img class="img am-fl" src="img/59d795c4bd7d1f1067a593b9c49b04b7.jpg">
+						<div class="am-block am-fl"><span>9"</span><small><br />
+							<i class="am-icon-map-marker"></i> 上海　|　2016/06/28</small></div>
+						<div class="am-fr">
+							<div class="shuzhi1 am-fl">44</div><i class="am-icon-users am-icon-fw shang am-fl"></i><br />
+							<div class="shuzhi am-fl">0</div><i class="am-icon-heart am-icon-fw dianzan am-fl"></i>
+						</div>
+					</li>
+					<li style="background:#282828;"><img class="img am-fl" src="img/5ad5a294494caa226874ff4102adb9f2.jpg" class="mess-face">
+						<div class="am-block am-fl"><span>25"</span><small><br />
+							<i class="am-icon-map-marker"></i> 上海　|　2016/06/28</small></div>
+						<div class="am-fr">
+							<div class="shuzhi1 am-fl">20 </div><i class="am-icon-users am-icon-fw shang am-fl"></i><br />
+							<div class="shuzhi am-fl">4</div><i class="am-icon-heart am-icon-fw dianzan am-fl"></i>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<!--首页结束-->
+		<!--活动开始-->
+		<div class="content huodong">
+			<div class="kapian am-g">
+				<div class="tupian1"></div>
+				<div class="zhezhao"></div>
+				<div class="am-u-sm-12 am-u-sm-centered wenzi">
+					<h2 class="am-kai">说一件你想干却一直没干成的事儿～</h2>
+					<small>#脑洞大开# , #卧谈会#</small>
+				</div>
+				<small class="am-icon-rmb redPack">30</small>
+				<div class="time" style="background:#8e0f4e;">
+					<i class="am-icon-microphone" style="color:#aAA;margin-right:5px;"></i><a>距离活动结束还有:</a>
+					<a href="" class="daojishi"></a>
+				</div>
+			</div>
+			<div class="kapian am-g">
+				<div class="tupian2"></div>
+				<div class="zhezhao"></div>
+				<div class="am-u-sm-12 am-u-sm-centered wenzi">
+					<h2 class="am-kai">拍下你眼中的幸福</h2>
+					<small>#摄影比赛# , #摄影比赛#</small>
+				</div>
+				<small class="am-icon-rmb redPack">30</small>
+				<div class="time" style="background:#8e0f4e;">
+					<i class="am-icon-microphone" style="color:#aAA;margin-right:5px;"></i><a>距离活动结束还有:</a>
+					<a href="" class="daojishi"></a>
+				</div>
+			</div>
+			<div class="kapian am-g">
+				<div class="tupian3"></div>
+				<div class="zhezhao"></div>
+				<div class="am-u-sm-12 am-u-sm-centered wenzi">
+					<h2 class="am-kai">你想成为谁？</h2>
+					<small>#言色说，有观点# , #言色说，有观点#</small>
+				</div>
+				<small class="am-icon-rmb redPack">30</small>
+				<div class="time" style="background:#282828;">
+					<i class="am-icon-microphone" style="color:#aAA;margin-right:5px;"></i><a>距离活动结束还有:</a>
+					<a href="" class="daojishi"></a>
+				</div>
+			</div>
+			<div class="kapian am-g">
+				<div class="tupian4"></div>
+				<div class="zhezhao"></div>
+				<div class="am-u-sm-12 am-u-sm-centered wenzi">
+					<h2 class="am-kai">为彼此推荐一本好书</h2>
+					<small>#言色说，有观点# , #声音擂台#</small>
+				</div>
+				<small class="am-icon-rmb redPack">30</small>
+				<div class="time" style="background:#282828;">
+					<a href=""><i class="am-icon-microphone"></i> 活动已结束，看看奖品花落谁家</a>
+				</div>
+			</div>
+			<div class="kapian am-g">
+				<div class="tupian5"></div>
+				<div class="zhezhao"></div>
+				<div class="am-u-sm-12 am-u-sm-centered wenzi">
+					<h2 class="am-kai">请用“蓝瘦  香菇”造句</h2>
+					<small>#脑洞大开# , #声音擂台#</small>
+				</div>
+				<small class="am-icon-rmb redPack">30</small>
+				<div class="time" style="background:#282828;">
+					<a href=""><i class="am-icon-microphone"></i> 活动已结束，看看奖品花落谁家</a>
+				</div>
+			</div>
+			<div class="kapian am-g">
+				<div class="tupian6"></div>
+				<div class="zhezhao"></div>
+				<div class="am-u-sm-12 am-u-sm-centered wenzi">
+					<h2 class="am-kai">最美是清秋 原创诗歌比赛</h2>
+					<small>#主题日# , #原创诗歌赛#</small>
+				</div>
+				<small class="am-icon-rmb redPack">30</small>
+				<div class="time" style="background:#282828;">
+					<a href=""><i class="am-icon-microphone"></i> 活动已结束，看看奖品花落谁家</a>
+				</div>
+			</div>
+			<div class="kapian am-g">
+				<div class="tupian7"></div>
+				<div class="zhezhao"></div>
+				<div class="am-u-sm-12 am-u-sm-centered wenzi">
+					<h2 class="am-kai">岛上钓鱼（仅限女生参加）</h2>
+					<small>#主题日# , #原创诗歌赛#</small>
+				</div>
+				<small class="am-icon-rmb redPack">30</small>
+				<div class="time" style="background:#282828;">
+					<a href=""><i class="am-icon-microphone"></i> 活动已结束，看看奖品花落谁家</a>
+				</div>
+			</div>
+			<div class="kapian am-g">
+				<div class="tupian8"></div>
+				<div class="zhezhao"></div>
+				<div class="am-u-sm-12 am-u-sm-centered wenzi">
+					<h2 class="am-kai">成语接龙</h2>
+					<small>#主题日# , #原创诗歌赛#</small>
+				</div>
+				<small class="am-icon-rmb redPack">30</small>
+				<div class="time" style="background:#282828;">
+					<a href=""><i class="am-icon-microphone"></i> 活动已结束，看看奖品花落谁家</a>
+				</div>
+			</div>
+		</div>
+		<!--活动结束-->
+		<!--添加页开始-->
+		<div class="content tianjia">
+			<div class="am-g zhuti">
+				<div class="am-u-sm-4 am-u-sm-centered">
+					<i class="am-icon-connectdevelop" style="font-size:28px;"></i>
+				</div>
+			</div>
+			<div class="am-g zhuti">主题</div>
+			<div class="am-g zhuti am-kai">
+				<h2 style="padding:0;margin:0;">选择"言色"的主题?</h2></div>
+			<div class="am-g zhuti">
+				<h4>请在下方选择合适的应用主题</h4></div>
+			<ul class="yingyongzhuti am-cf">
+				<li class="am-fl "><a href="">乐音</a></li>
+				<li class="am-fl"><a href="">心语</a></li>
+				<li class="am-fl"><a href="">诗.词</a></li>
+				<li class="am-fl"><a href="">摄影比赛</a></li>
+				<li class="am-fl"><a href="">生活</a></li>
+				<li class="am-fl"><a href="">应用主题</a></li>
+			</ul>
+			<div class="tubaio am-g">
+				<div class="am-u-sm-6 tubiao1">
+					<img style="width:80px;height:80px;" src="img/btn-close.png" />
+				</div>
+				<div class="am-u-sm-6 tubiao2">
+					<img style="width:80px;height:80px;" src="img/btn-check.png" />
+				</div>
+			</div>
+		</div>
+		<!--添加页结束-->
+		<!--排名页开始-->
+		<div class="content paiming">
+			<header class="indexList-head" style="position:absolute!important;z-index:222;">
+				<ul class="indexList-menu" id="getVoice">
+					<li class="am-active am-fl"><a>红人榜<i class="am-icon-star-o am-icon-fw"></i></a></li>
+					<li class="am-fl"><a>关注度<i class="am-icon-heart-o am-icon-fw"></i></a></li>
+					<li class="am-fl"><a>活跃值<i class="am-icon-microphone am-icon-fw"></i></a></li>
+				</ul>
+			</header>
+
+			<div class="picture" style="padding-top:40px;">
+				<ul class="rand">
+					<li style="background:#282828;position:relative" class="am-cf">
+						<img class="am-fl am-circle" style="position:absolute;top:0.2em;left:0.1em;width:80px;height:80px;z-index:999;" src="img/gold.png">
+						<img class="am-fl am-circle" style="width:65px;height:65px;position:absolute;top:0.6em;left:0.6em;" src="img/1225a2410b8a175a2bbf4bc72f026571.jpg" />
+						<div class="am-block am-fl" style="margin-left:90px;">
+							<h2 style="padding:0;margin:0;">清风吟</h2>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+						</div>
+						<em class="num am-fr">1</em>
+					</li>
+					<li style="background:#282828;position:relative" class="am-cf">
+						<img class="am-fl am-circle" style="position:absolute;top:0.2em;left:0.1em;width:80px;height:80px;z-index:999;" src="img/silver.png">
+						<img class="am-fl am-circle" style="width:65px;height:65px;position:absolute;top:0.6em;left:0.6em;" src="img/1b8cf44754e909f45fe3b1094f22fdd9.jpg" />
+						<div class="am-block am-fl" style="margin-left:90px;">
+							<h2 style="padding:0;margin:0;">diang</h2>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+						</div>
+						<em class="num am-fr">2</em>
+					</li>
+					<li style="background:#282828;position:relative" class="am-cf">
+						<img class="am-fl am-circle" style="position:absolute;top:0.2em;left:0.1em;width:80px;height:80px;z-index:999;" src="img/copper.png">
+						<img class="am-fl am-circle" style="width:65px;height:65px;position:absolute;top:0.6em;left:0.6em;" src="img/3a639f6d594e811ff8fd8505ec5bf0c5.jpg" />
+						<div class="am-block am-fl" style="margin-left:90px;">
+							<h2 style="padding:0;margin:0;">shadow</h2>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+						</div>
+						<em class="num am-fr">3</em>
+					</li>
+					<li style="background:#282828;position:relative" class="am-cf">
+						<img class="am-fl am-circle" style="position:absolute;top:0.2em;left:0.1em;width:80px;height:80px;z-index:999;" src="img/iron.png">
+						<img class="am-fl am-circle" style="width:65px;height:65px;position:absolute;top:0.6em;left:0.6em;" src="img/3a6912b4293b9abe0dc85c56004e51c8.jpg" />
+						<div class="am-block am-fl" style="margin-left:90px;">
+							<h2 style="padding:0;margin:0;">benchuziwu</h2>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+						</div>
+						<em class="num am-fr">4</em>
+					</li>
+					<li style="background:#282828;position:relative" class="am-cf">
+						<img class="am-fl am-circle" style="position:absolute;top:0.2em;left:0.1em;width:80px;height:80px;z-index:999;" src="img/iron.png">
+						<img class="am-fl am-circle" style="width:65px;height:65px;position:absolute;top:0.6em;left:0.6em;" src="img/69d9363a0aec6cb45e13536f7af63b64.jpg" />
+						<div class="am-block am-fl" style="margin-left:90px;">
+							<h2 style="padding:0;margin:0;">hello</h2>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+						</div>
+						<em class="num am-fr">5</em>
+					</li>
+					<li style="background:#282828;position:relative" class="am-cf">
+						<img class="am-fl am-circle" style="position:absolute;top:0.2em;left:0.1em;width:80px;height:80px;z-index:999;" src="img/iron.png">
+						<img class="am-fl am-circle" style="width:65px;height:65px;position:absolute;top:0.6em;left:0.6em;" src="img/4929b680d85706b92599d58aa65bfd64.jpg" />
+						<div class="am-block am-fl" style="margin-left:90px;">
+							<h2 style="padding:0;margin:0;">丫头,你好!</h2>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+						</div>
+						<em class="num am-fr">6</em>
+					</li>
+					<li style="background:#282828;position:relative" class="am-cf">
+						<img class="am-fl am-circle" style="position:absolute;top:0.2em;left:0.1em;width:80px;height:80px;z-index:999;" src="img/iron.png">
+						<img class="am-fl am-circle" style="width:65px;height:65px;position:absolute;top:0.6em;left:0.6em;" src="img/5ad5a294494caa226874ff4102adb9f2.jpg" />
+						<div class="am-block am-fl" style="margin-left:90px;">
+							<h2 style="padding:0;margin:0;">清风吟</h2>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+						</div>
+						<em class="num am-fr">7</em>
+					</li>
+					<li style="background:#282828;position:relative" class="am-cf">
+						<img class="am-fl am-circle" style="position:absolute;top:0.2em;left:0.1em;width:80px;height:80px;z-index:999;" src="img/iron.png">
+						<img class="am-fl am-circle" style="width:65px;height:65px;position:absolute;top:0.6em;left:0.6em;" src="img/52e4da80_1467620909.jpg" />
+						<div class="am-block am-fl" style="margin-left:90px;">
+							<h2 style="padding:0;margin:0;">清风吟</h2>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+						</div>
+						<em class="num am-fr">8</em>
+					</li>
+					<li style="background:#282828;position:relative" class="am-cf">
+						<img class="am-fl am-circle" style="position:absolute;top:0.2em;left:0.1em;width:80px;height:80px;z-index:999;" src="img/iron.png">
+						<img class="am-fl am-circle" style="width:65px;height:65px;position:absolute;top:0.6em;left:0.6em;" src="img/a92944cc_1467121462.jpg" />
+						<div class="am-block am-fl" style="margin-left:90px;">
+							<h2 style="padding:0;margin:0;">清风吟</h2>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+						</div>
+						<em class="num am-fr">9</em>
+					</li>
+					<li style="background:#282828;position:relative" class="am-cf">
+						<img class="am-fl am-circle" style="position:absolute;top:0.2em;left:0.1em;width:80px;height:80px;z-index:999;" src="img/iron.png">
+						<img class="am-fl am-circle" style="width:65px;height:65px;position:absolute;top:0.6em;left:0.6em;" src="img/ac60356ce0a57b57196f2993fb0cf52f.jpg" />
+						<div class="am-block am-fl" style="margin-left:90px;">
+							<h2 style="padding:0;margin:0;">清风吟</h2>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+							<i class="am-icon-star-o am-icon-fw am-fl"></i><a class="am-sans-serif am-fl">7 /</a>
+						</div>
+						<em class="num am-fr">10</em>
+					</li>
+
+				</ul>
+			</div>
+
+		</div>
+		<!--排名页结束-->
+		<!--我的页开始-->
+		<div class="content wode">
+			<div class="am-g ">
+				<div class="am-u-sm-4 am-circle fanhui">
+					<i class="am-icon-arrow-left" style="margin-left:0.5em;"></i>
+				</div>
+				<div class="am-g" style="position:relative;z-index:-222;">
+					<img class="facelogo" src="img/face_logo.png" style="width:300px;margin:0 auto;" />
+					<img class="face" style="position:absolute;top:50%;right:11%; width:150px;height:150px;" src="img/icon-voice.png" />
+				</div>
+				<div class="am-g denglu">
+					<input class="am-center" type="text" name="" id="" value="用户名或手机号" /><br />
+					<input class="am-center" type="text" name="" id="" value="登录密码" /><br />
+					<input class="am-center" type="button" name="" id="" value="登录" style="background:#8f104f;" /><br />
+
+				</div>
+				<div class="am-g">
+					<div class="am-center am-u-sm-10 am-u-sm-centered  qita">
+						<div class="am-u-sm-4">
+							注册新用户
+						</div>
+						<div class="am-u-sm-4">
+							第三方登录
+						</div>
+						<div class="am-u-sm-4">
+							忘记密码
+						</div>
+					</div>
+				</div>
+				<div class="am-g ">
+					<div class="am-u-sm-6 tubiao1">
+						<i class="am-icon-qq" style="font-size:38px;color:#05a8d1;"></i>
+					</div>
+					<div class="am-u-sm-6 tubiao2">
+						<i class="am-icon-weibo" style="font-size:38px;color:#8d0e4d;"></i>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!--我的页结束-->
+		<!--底部导航条显示开始-->
+		<div class="am-container footer">
+			<div class="am-g">
+				<ul class="am-avg-sm-5">
+					<li class="btn active"><img src="img/navIcon_home.png" class="am-center" />
+						<p>首页</p>
+					</li>
+					<li class="btn"><img src="img/navIcon_events.png" class="am-center" />
+						<p>活动</p>
+					</li>
+					<li class="am-round btn"><img src="img/btn-add.png" style="width:82px;height:82px;" /></li>
+					<li class="btn"><img src="img/navIcon_crown.png" class="am-center" />
+						<p>排名</p>
+					</li>
+					<li class="btn"><img src="img/icon-voice.png" class="am-center" />
+						<p>我的</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--底部导航条显示结束-->
+
+		<!--详情页开始-->
+		<div class="xiangqing" style="display:none;">
+			<!--背景动画开始-->
+			<div class="slideshow">
+				<div class="slideshow-image"  style="background:url('img/g1.jpeg');background-size:100% 100% ;"></div>
+				<div class="slideshow-image" style="background:url('img/g2.jpeg');background-size:100% 100% ;"></div>
+				<div class="slideshow-image" style="background:url('img/g3.jpeg');background-size:100% 100% ; "></div>
+				<div class="slideshow-image" style="background:url('img/g4.jpeg');background-size:100% 100% ;"></div>
+			</div>
+			<!--背景动画结束-->
+			<div class="am-g biaoti am-cf">
+				<div class="am-u-sm-2 am-circle fanhui am-fl fhshouye">
+					<i class="am-icon-arrow-left"></i>
+				</div>
+				<div class="am-u-sm-8 zuozhe am-fl">
+					<a href="" class="am-fl" style="margin-right:10px;">清风吟西</a>
+					<img class="am-circle" src="img/ec7265e4_20161109.jpeg" style="position:absolute;left:35%;width:80px;height:80px;border:2px solid #fff;" />
+					<a href="" class="am-fr">中国-四川</a>
+				</div>
+				<div class="am-u-sm-2 am-circle fanhui am-fr" style="margin:0;margin-top:10px!important;">
+					<i class="am-icon-share"></i>
+				</div>
+			</div>
+			<div class="am-g am-cf biaoti">
+				<div class="am-u-sm-2 am-circle fanhui am-fr" style="margin-right:0px!important;">
+					<i class="am-icon-heart-o"></i>
+				</div>
+				<div class="am-u-sm-10 love">
+					<img class="am-fr am-circle" src="img/1225a2410b8a175a2bbf4bc72f026571.jpg" />
+					<img class="am-fr am-circle" src="img/1b8cf44754e909f45fe3b1094f22fdd9.jpg" />
+					<img class="am-fr am-circle" src="img/3a639f6d594e811ff8fd8505ec5bf0c5.jpg" />
+					<img class="am-fr am-circle" src="img/5ad5a294494caa226874ff4102adb9f2.jpg" />
+					<img class="am-fr am-circle" src="img/3a6912b4293b9abe0dc85c56004e51c8.jpg" />
+				</div>
+			</div>
+			<div class="am-g am-cf biaoti">
+				<div class="am-u-sm-2 am-circle fanhui am-fr" style="margin-right:0px!important;">
+					<i class="am-icon-warning"></i>
+				</div>
+				<p class="am-fr" style="color:#fff;margin-top:-15px">5人喜欢</p>
+			</div>
+			<div class="am-g am-cf biaoti">
+				<div class="am-u-sm-2 am-circle fanhui am-fr" style="margin-right:0px!important;">
+					<i class="am-icon-heart-o"></i>
+				</div>
+			</div>
+			<img class="jiazuo" style="position:fixed;right:-2%;top:50%;width:110px;height;110px;" src="img/jiazuo.png" />
+			<div class="am-g shang">
+				<div class="am-u-sm-2 am-circle  am-fr" style="background:rgba(255,0,0,0.5);width:50px;height:50px;">
+					<img class="am-center" src="img/shang.png" style="transform:translateX(-0.4em);" />
+				</div>
+			</div>
+			<div class="am-g" style="position:fixed;bottom:60px;left:0;">
+				<div class="am-u-sm-8 am-fl" style="color:#fff;">
+					<h2 class="am-kai">《像花儿一样》复兴岛乐队</h2>
+				</div>
+				<div class="am-u-sm-4  am-fl" style="color:#fff;">
+					<button style="border-radius:10px;color:#333;margin-right:0px;">发表评论(1)</button>
+				</div>
+			</div>
+			<footer class="am-g">
+				<video id="video" src="img/chong.mp3" style="display:none;width:10px;height:60px;"></video>
+				<div class="am-u-sm-2  am-fl" style="position:relative;">
+					<img class="bofang1" src="img/x2.png"style="width:60px;height:60px;position:absolute;z-index:233;" />
+					<img class="zanting" src="img/zanting.png"style="display:none;width:60px;height:60px;position:absolute;" onclick="pause()" />
+				</div>
+				<div class="am-u-sm-2 am-fr">
+					<div class="chuangzuo">
+						点此<br />创作
+					</div>
+				</div>
+				<div class="am-u-sm-8  am-fr bofang">
+					<span style="color:#fff;" class="am-fr">'</span><em class="am-serif am-fr">1</em>
+				</div>		
+			</footer>
+		</div>
+		<!--详情页结束-->
+		<script src="assets/js/amazeui.js"></script>
+		<script src="assets/js/jquery-1.12.4.js"></script>
+		<script src="assets/js/music.js"></script>
+	</body>
+
+</html>
