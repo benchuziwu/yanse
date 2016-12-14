@@ -11,7 +11,7 @@ function getMytime() {
 		daojishi[i].innerHTML = (Math.floor(deltaTime / 86400) + "天" + Math.floor(deltaTime % 86400 / 3600) + "时" + Math.floor(deltaTime % 86400 % 3600 / 60) + "分" + Math.floor(deltaTime % 60) + "秒");
 		if (deltaTime <= 0) {
 			clearInterval(timer);
-			alert('该活动已结束');
+			
 			return
 		}
 	}
